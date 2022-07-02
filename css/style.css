@@ -1,0 +1,355 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.container {
+  width: 100%;
+  min-width: 360px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  z-index: 0; }
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px; } }
+
+@media (min-width: 1340px) {
+  .container {
+    max-width: 1280px; } }
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 0; }
+
+.wrapper {
+  overflow: hidden; }
+
+.mainImgWrap {
+  margin: auto;
+  position: relative; }
+
+.mobilSecWrap {
+  position: relative; }
+
+.mainBtn {
+  height: 56px;
+  transition: 0.3s ease; }
+  .mainBtn .btnImg {
+    height: 100%; }
+
+.mainBtn:hover {
+  cursor: pointer;
+  transition: 0.3s ease;
+  transform: scale(1.1); }
+
+.mainBtnMobil {
+  height: 36px;
+  transition: 0.3s ease; }
+  .mainBtnMobil .btnImg {
+    height: 100%; }
+
+.startPromote {
+  position: absolute;
+  top: 450px;
+  left: 33px; }
+
+.getAccount {
+  position: absolute;
+  top: 430px;
+  left: 53px; }
+
+.createCreative {
+  position: absolute;
+  top: 730px;
+  left: 53px; }
+
+.tgBtn {
+  height: 120px;
+  position: absolute;
+  bottom: 150px;
+  right: 20px; }
+
+.formBtn {
+  top: 350px;
+  right: 20%;
+  position: absolute; }
+
+.mainImg {
+  width: calc(100% + 650px);
+  margin-top: -620px;
+  margin-left: -140px; }
+
+.mainImg2 {
+  width: calc(100% + 550px);
+  margin-left: -300px;
+  z-index: -1 !important; }
+
+.mainImgMobil,
+.mainBtnMobil {
+  display: none; }
+
+.whiteBlock {
+  width: 35vw;
+  height: 1557px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.greenBlock {
+  width: 65vw;
+  height: 1556px;
+  background-color: #16e59a;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.greenLine {
+  height: 370px;
+  background-image: url("../images/Rectangle 120.png");
+  background-size: cover;
+  z-index: 9;
+  margin-top: -390px; }
+
+.section5 {
+  width: calc(100% + 250px);
+  margin-left: -168px; }
+
+.wrp34 {
+  z-index: 0;
+  position: relative; }
+
+.wrp5 {
+  z-index: 99; }
+
+.sec6wrp {
+  position: relative; }
+
+.section6 {
+  width: calc(100% + 250px);
+  margin-top: 120px;
+  margin-left: 70px; }
+
+.slideItem {
+  max-height: 250px;
+  width: auto;
+  background-color: #15b67f;
+  border-radius: 13px; }
+
+.sw1 {
+  padding-left: 5%;
+  width: 100%;
+  position: absolute;
+  top: 900px; }
+
+.slideImg {
+  height: 100%;
+  max-height: 250px;
+  margin-right: 7px;
+  margin-top: -7px;
+  margin-left: -7px;
+  margin-bottom: 7px; }
+
+.form {
+  width: 500px;
+  position: absolute;
+  top: 200px;
+  left: 12%; }
+  .form .input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #333333;
+    margin-top: 20px; }
+  .form .input:focus {
+    outline: none; }
+
+.formMobil {
+  display: none; }
+
+@media (max-width: 1340px) {
+  .whiteBlock,
+  .greenBlock {
+    height: 1214px; }
+  .mainImg {
+    width: calc(100% + 550px);
+    margin-top: -490px;
+    margin-left: -130px; }
+  .mainImg2 {
+    width: calc(100% + 550px);
+    margin-left: -280px; }
+  .section6 {
+    margin-left: 25px; }
+  .greenLine {
+    height: 300px;
+    margin-top: -320px; }
+  .startPromote {
+    position: absolute;
+    top: 350px;
+    left: 5px; }
+  .getAccount {
+    top: 370px;
+    left: 13px; }
+  .createCreative {
+    top: 600px;
+    left: 13px; }
+  .tgBtn {
+    bottom: 120px;
+    right: 20px; }
+  .sw1 {
+    padding-left: 2%;
+    width: 100%;
+    position: absolute;
+    top: 750px; }
+  .form {
+    left: 3%; }
+  .formBtn {
+    right: 10%; } }
+
+@media (max-width: 992px) {
+  .whiteBlock,
+  .greenBlock {
+    height: 927px; }
+  .mainImg {
+    width: calc(100% + 430px);
+    margin-top: -370px;
+    margin-left: -110px; }
+  .mainImg2 {
+    width: calc(100% + 330px);
+    margin-left: -210px; }
+  .section5 {
+    margin-left: -148px; }
+  .greenLine {
+    margin-top: -220px;
+    height: 200px; }
+  .section6 {
+    margin-left: -8px; }
+  .mainBtn {
+    height: 46px; }
+  .startPromote {
+    position: absolute;
+    top: 270px;
+    left: -8px; }
+  .getAccount {
+    top: 240px;
+    left: -7px; }
+  .createCreative {
+    top: 420px;
+    left: -7px; }
+  .tgBtn {
+    height: 80px;
+    bottom: 80px;
+    right: 100px; }
+  .slideItem,
+  .slideImg {
+    max-height: 200px; }
+  .sw1 {
+    top: 510px;
+    padding-left: 0.5%; }
+  .form {
+    left: 0%; }
+  .formBtn {
+    left: 0;
+    top: 450px; } }
+
+@media (max-width: 767px) {
+  .whiteBlock,
+  .greenBlock {
+    height: 723px; }
+  .mainImg {
+    margin-top: -315px; }
+  .mainImg2 {
+    width: calc(100% + 330px);
+    margin-left: -180px; }
+  .section5 {
+    margin-left: -132px; }
+  .mainBtn {
+    height: 36px; }
+  .startPromote {
+    position: absolute;
+    top: 220px;
+    left: -25px; }
+  .slideItem,
+  .slideImg {
+    max-height: 160px; }
+  .sw1 {
+    top: 485px; } }
+
+@media (max-width: 600px) {
+  .mainImg,
+  .mainImg2,
+  .section5,
+  .greenLine,
+  .section6,
+  .swdt, form, .formBtn {
+    display: none; }
+  .mainImgMobil,
+  .mainBtnMobil {
+    display: block;
+    width: 100%; }
+  .whiteBlock,
+  .greenBlock {
+    display: none; }
+  .startPromote {
+    position: absolute;
+    top: 77vw;
+    left: 12%; }
+  .mainBtn {
+    display: none; }
+  .getAccountMobil {
+    position: absolute;
+    top: 77vw;
+    left: 12%; }
+  .promoteMobil {
+    position: absolute;
+    top: 160vw;
+    left: 12%; }
+  .createCreative {
+    position: absolute;
+    top: 130vw;
+    left: 12%; }
+  .mobilTgBtn {
+    position: absolute;
+    height: 120px;
+    top: 70vw;
+    left: 10%; }
+  .swmob {
+    position: absolute;
+    top: 60vw;
+    padding-left: 13%; }
+    .swmob .slideItem,
+    .swmob .slideImg {
+      height: 200px; }
+  .mainImgMobil4 {
+    margin-top: -100px; }
+  .mainImgMobil5 {
+    margin-top: -80px; }
+  .formMobil {
+    width: 100%;
+    position: absolute;
+    padding: 0 12%;
+    top: 100px;
+    display: block; }
+    .formMobil .input {
+      min-width: 280px;
+      height: 30px;
+      border: none;
+      border-bottom: 2px solid #333333;
+      margin-top: 20px; }
+    .formMobil .input:focus {
+      outline: none; }
+  .formBtnMobil {
+    position: absolute;
+    top: 360px;
+    left: 12%; } }
